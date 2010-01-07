@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to ShockText</string>
+    <string name="prefs">prefs</string>
+    <string name="app_name">ShockText</string>
+    <string name="prefs_name">Preferences</string>
+    
+    <!-- Menu options -->
+	<string name="manage_recipients_label">Manage Recipients</string>
+	
+	<string name="add_recipients_label">Add Recipients</string>
+	    
+    <string name="settings_label">Settings</string>
+    <string name="my_location_label">My Location</string>
+	<string name="gps_status_label">GPS Status</string>   
+    
+    <string name="exit_label">Exit</string>
+    
+    <string name="joltSetting_label">Jolt Setting</string>
+        
+</resources>
