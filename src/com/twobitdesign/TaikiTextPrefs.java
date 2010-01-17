@@ -8,7 +8,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.os.Bundle;
 import android.os.Environment;
 import android.text.Editable;

@@ -107,13 +107,10 @@ public class TaikiText extends Activity {
 		public boolean onOptionsItemSelected(MenuItem item) {
 			switch(item.getItemId()) {
 			case R.id.recipients:
-			    // Intent intent = new Intent(Intent.ACTION_PICK, People.CONTENT_URI);
-			    // startActivityForResult(intent, PICK_CONTACT);
-				startActivity(new Intent(this, TaikiTextRecipients.class));
+			    startActivity(new Intent(this, TaikiTextRecipients.class));
 				break;
 			case R.id.settings:
 				startActivity(new Intent(this, TaikiTextPrefs.class));
-				//ShockTextUtils.notImplemented(this);
 				break;
 			case R.id.exit:
 				finish();

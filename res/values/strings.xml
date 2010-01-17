@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Welcome to ShockText</string>
+    <string name="hello">Welcome to TaikiText</string>
     <string name="prefs">prefs</string>
-    <string name="app_name">ShockText</string>
+    <string name="app_name">TaikiText</string>
     <string name="prefs_name">Preferences</string>
     
     <!-- Menu options -->
 	<string name="manage_recipients_label">Manage Recipients</string>
 	
-	<string name="add_recipients_label">Add Recipients</string>
+	<string name="add_recipient_label">Add Recipient</string>
+	<string name="delete_recipients_label">Delete Recipients</string>
 	    
     <string name="settings_label">Settings</string>
     <string name="my_location_label">My Location</string>
@@ -17,5 +18,8 @@
     <string name="exit_label">Exit</string>
     
     <string name="joltSetting_label">Jolt Setting</string>
+   
+    <string name="title_done">Done</string>
+    <string name="title_cancel">Cancel</string>
         
 </resources>

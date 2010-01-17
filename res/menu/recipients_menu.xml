@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/add_recipient"
+		android:icon="@android:drawable/ic_menu_add"
+ 		android:title="@string/add_recipient_label" />	
+	<item android:id="@+id/delete_recipients"
+		android:icon="@android:drawable/ic_menu_delete"
+ 		android:title="@string/delete_recipients_label" />
+ 
+</menu>

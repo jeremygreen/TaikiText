@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:stretchColumns="0">
+    <TableRow>
+    <LinearLayout
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+       <TextView
+            android:id="@+id/name_entry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dip"/>
+       <TextView
+            android:id="@+id/number_entry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"/>
+        <TextView
+            android:id="@+id/email_entry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dip"/>
+    </LinearLayout>
+    <CheckBox android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+   </CheckBox>
+   </TableRow>
+</TableLayout>
